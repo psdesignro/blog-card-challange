@@ -18,25 +18,21 @@
 }
 
 body{
-    height: 100%;
-    width: 100%;
-    /* overflow: hidden; */
+ 
     font-family: 'Figtree', sans-serif;
     font-size: 16px;
 }
 
 .main-screen{
     background-color: var(--accent-color);
-    width: 100vw;
-    height: 100vh ;
+    
     display: flex;
+    flex-direction: column;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    padding: 16px;
-    margin: 0 auto;
-  
- 
+    
+     
 }
 
 
@@ -51,6 +47,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin:auto;
    
 }
 
@@ -119,10 +116,9 @@ p.bold-text {
 }
 
 .attribution{
-    display: flex;
-    width: 100vw;
-    justify-content: flex-end;
-    font-size: 12px;
+    align-self: flex-end;
+    margin-left: auto;
+    padding: 16px;
      
     background-color: var(--accent-color);
  
